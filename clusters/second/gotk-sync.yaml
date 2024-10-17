@@ -1,0 +1,9 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+spec:
+  interval: 10m0s
+  path: ./clusters/second
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: second
