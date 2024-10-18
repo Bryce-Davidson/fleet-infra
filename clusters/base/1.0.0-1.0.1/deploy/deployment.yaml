@@ -12,4 +12,6 @@ spec:
           command:
             - sh
             - -c
-            - echo "deploy-job"
+            - |
+              sleep 5
+              echo "deploy-job"

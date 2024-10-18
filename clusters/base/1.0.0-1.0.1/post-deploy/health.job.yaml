@@ -12,4 +12,6 @@ spec:
           command:
             - sh
             - -c
-            - echo "health-job"
+            - |
+              sleep 5
+              echo "deploy-job"
