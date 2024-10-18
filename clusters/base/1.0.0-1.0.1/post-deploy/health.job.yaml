@@ -13,5 +13,6 @@ spec:
             - sh
             - -c
             - |
-              sleep 20
-              echo "deploy-job"
+              echo "Running health job"
+              sleep 5
+              echo "Health job completed"

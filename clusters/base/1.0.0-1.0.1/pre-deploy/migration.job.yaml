@@ -13,5 +13,6 @@ spec:
             - sh
             - -c
             - |
-              sleep 20
-              echo "deploy-job"
+              echo "Running migration job"
+              sleep 5
+              echo "Migration job completed"
