@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: test-pre-deploy-job
+  name: test-db-migration-job
 spec:
   template:
     spec:
@@ -13,5 +13,5 @@ spec:
             - sh
             - -c
             - |
-              sleep 10
-              echo "new pre-deploy job"
+              sleep 20
+              echo "deploy-job"
